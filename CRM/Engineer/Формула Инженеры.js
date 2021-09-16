@@ -1,4 +1,4 @@
-//Формула начисления ЗП выездным инженерам
+//Формула начисления ЗП водителю
 
 function PercentEngineer( avCheck, nOrders ){
   if ( avCheck >= 2000 && nOrders >= 20) {

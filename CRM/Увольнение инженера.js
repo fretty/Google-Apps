@@ -25,7 +25,7 @@ function firingEngineer() {
     delEngineerFillesPermission(nameEngineer, emailEngineer);
 
   } else {
-    Browser.msgBox("Кликните на ячейку с  инженером")
+    Browser.msgBox("Кликните на ячейку с  водителем")
   }
 }
 

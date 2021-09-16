@@ -4,8 +4,8 @@ function showUserForm() {
 
   var html = template.evaluate()
 
-  html.setTitle("Новый инженер").setWidth(440).setHeight(420)
-  SpreadsheetApp.getUi().showModalDialog(html, "Новый инженер");
+  html.setTitle("Новый водитель").setWidth(440).setHeight(420)
+  SpreadsheetApp.getUi().showModalDialog(html, "Новый водитель");
   //showSidebar(html)
   Logger.log(html)
   console.log(html)
@@ -28,5 +28,5 @@ function appendData(data) {
 }
 
 function doneMessage() {
-  Browser.msgBox("Инженер успешно нанят")
+  Browser.msgBox("водитель успешно нанят")
 }
